@@ -1,0 +1,118 @@
+body{
+    background: url("forest.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: "blade";
+    src: url("bladrf.ttf");
+    font-size: small;
+}
+
+
+.imagesShadows{
+    box-shadow: 10px 10px 20px #c2f0c2;
+    border-radius: 25px;
+}
+
+.hoverClass{
+    cursor: pointer;
+}
+
+img{
+    border:2px solid #c2f0c2;
+
+
+}
+
+.menu{
+    border-radius:15px;
+ }
+
+
+
+.niceText{
+    display: inline-block;
+    font-family: "Georgia";
+    color: white;
+
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius:15px;
+    padding: 3px;
+    background-color:black;
+
+}
+
+.niceText2{
+    display: inline-block;
+    font-family: "Georgia";
+    color: white;
+
+    opacity: 0.95;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    border-radius:15px;
+
+    background-color:black;
+
+}
+
+div>h1{
+    font-family: "Georgia";
+    display: inline-block;
+    color: white;
+    background-color: #ffffff;
+
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 10px;
+    text-decoration: underline;
+    background-color:black;
+
+}
+div>h3{
+    font-family: "Georgia";
+    display: inline-block;
+    color: white;
+    background-color: #ffffff;
+
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 10px;
+
+
+}
+
+
+@media (max-width: 768px){
+
+    h1{
+    font-size: 24px;
+}
+    h3{
+        font-size: 18px;
+    }
+
+}
+
+.signature {
+
+    float: right;
+
+    margin-top: 30px;
+    padding-right: 10px;
+    font-family: blade;
+    font-size: small;
+    color: white;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 15px;
+    font-size:xx-small;
+
+    background-color: black;
+}
+
